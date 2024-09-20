@@ -1,0 +1,70 @@
+.dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.LogList{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.LogList-nav {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+.LogList-body {
+  padding: 10px;
+  max-height: 300px; 
+  overflow-y: auto; 
+  overflow-x: hidden; 
+  background-color: #ffffff; 
+}
+
+.LogList-body ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.LogList-body ul li {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.LogList-body li.addition {
+  background-color: #e7f7e4;
+  border-left: 5px solid #6ad36f;
+}
+
+.LogList-body li.change {
+  background-color: #f9f7e4;
+  border-left: 5px solid #f7ce2b;
+}
+
+.LogList-body li.deletion {
+  background-color: #fbeaea;
+  border-left: 5px solid #f17c7c;
+}
+
+.log-action-time, .log-user, .log-action, .log-object, .log-message {
+  margin-bottom: 8px;
+}
+
+.log-action-time {
+  font-weight: bold;
+  color: #666;
+}
+
+.log-user {
+  font-size: 14px;
+}
+
+.log-action {
+  font-size: 16px;
+}
+
+.log-message {
+  font-style: italic;
+  color: #333;
+}

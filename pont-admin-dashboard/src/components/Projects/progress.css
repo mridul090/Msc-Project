@@ -1,0 +1,131 @@
+/* progress.css */
+
+.ProgressBar-list {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .create-ProgressBar-btn {
+    text-decoration: none;
+    color: #e8edf1;
+    font-weight: bold;
+    background-color: #17a589;
+    padding: 0.8rem 1.7rem;
+    border-radius: 10px;
+  }
+  
+  .separator-line {
+    margin: 20px 0;
+  }
+  
+  .ProgressBar-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .ProgressBar-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ProgressBar-card p {
+    margin: 0 0 10px;
+  }
+  
+  .prograssive-bar-update-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0.8rem 1.8rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #1E9370;
+    text-align: center;
+  }
+  
+  .prograssive-bar-delete-link {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0.8rem 1.8rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #931e2c;
+    text-align: center;
+  }
+  
+  .prograssive-bar-update-link:hover,  .prograssive-bar-delete-link:hover  {
+    text-decoration: underline;
+  }
+  
+  /* Progress Form  */
+  .form-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-height: 97vh; 
+    overflow-y: auto; 
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group span {
+    color: red;
+    font-size: 12px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1E9370;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #17a589;
+}

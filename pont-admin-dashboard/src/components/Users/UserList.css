@@ -1,0 +1,109 @@
+.register-user-list {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.create-register-user-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.create-register-user-btn:hover {
+  background-color: #0056b3;
+}
+
+.separator-line {
+  border: none;
+  border-top: 2px solid #eee;
+  margin-bottom: 20px;
+}
+
+.register-user-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.register-user-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 80px);
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-user-card:hover {
+  transform: translateY(-5px);
+}
+
+.register-user-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  width: 100%;     
+  height: 200px;         
+}
+
+.register-user-image {
+  width: 80%;
+  height: 100%;          
+  object-fit: cover;     
+}
+
+
+.register-user-card p, .register-user-title {
+  margin: 10px 15px;
+  color: #555;
+}
+
+.register-user-card strong {
+  color: #333;
+}
+
+.register-user-update-link{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 0.8rem 1.8rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #1E9370;
+  text-align: center;
+}
+
+.register-user-update-link:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+
+.register-user-button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 15px 15px;
+}

@@ -1,0 +1,54 @@
+.top-view{
+  display: flex;
+  max-height: 28vh;
+  max-width: 100%;
+  padding: 0px;  
+  border: none;  
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+
+}
+.page-title{
+  padding: 0px;
+  margin: 10px;
+}
+.user-profile{
+  display: flex;
+  padding: 5px;
+}
+.user-details{
+  padding: 0px 0px 0px 20px;
+  margin: 0.5rem;
+}
+.user-photo{
+  width: 118px;
+  height: 124px;
+  border-radius: 50%;
+  margin-top: 1.2rem;
+}
+
+.user-name{
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.signout-btn{
+  width: 5.2rem;
+  height: 2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.sign-out{
+  color: rgb(78, 77, 76);
+}
+
+.sign-out:hover{
+  color: rgb(43, 89, 146);
+  cursor: pointer;
+  font-weight: bold;
+}

@@ -1,0 +1,111 @@
+/* Content list view page  */
+.content-list {
+    padding: 20px;
+}
+
+.header>h1{
+    width: 40rem;
+    text-align: left;
+}
+.create-content-btn{
+    background-color: #1E9370;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.content-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .separator-line {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+  .content-card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #f9f9f9;
+  }
+  
+  .content-card p {
+    margin: 5px 0;
+  }
+
+  .update-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .update-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Content create and upadate page */
+
+  .form-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-height: 97vh; 
+    overflow-y: auto; 
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group span {
+    color: red;
+    font-size: 12px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1E9370;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #17a589;
+}

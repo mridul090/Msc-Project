@@ -1,0 +1,166 @@
+/* List view */
+.about-page-list {
+    padding: 20px;
+    max-width: 110vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.header>h1{
+    width: 40rem;
+    text-align: center;
+}
+.create-about-page-btn {
+    background-color: #1E9370;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.separator-line {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.Allcardlist{
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.no-posts {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+}
+
+.about-page-card {
+    border: 2px solid #1E9370;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 80vh;
+}
+
+.about-page-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.about-page-content {
+    flex-grow: 1;
+}
+
+.about-page-content h2,
+.about-page-content p {
+    margin: 5px 0;
+}
+
+.about-page-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.btn-delete,
+.btn-update {
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.btn-delete {
+    border-color: #ff4d4d;
+    color: #ff4d4d;
+}
+
+.btn-update {
+    border-color: #1E9370;
+    color: #1E9370;
+}
+
+.btn-delete:hover {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.btn-update:hover {
+    background-color: #1E9370;
+    color: white;
+}
+
+
+/* form view  */
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-height: 97vh; 
+    overflow-y: auto; 
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group span {
+    color: red;
+    font-size: 12px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1E9370;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #17a589;
+}

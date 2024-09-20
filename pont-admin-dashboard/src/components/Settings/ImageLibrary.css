@@ -1,0 +1,127 @@
+.image-library {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .upload-section {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .upload-section input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .upload-section input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .upload-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .upload-section button:hover {
+    background-color: #45a049;
+  }
+  
+  .image-title-file {
+    display: flex;
+    padding: auto, 5px;
+  }
+  
+  .image-title-file input {
+    margin: 5px 5px;
+  }
+  
+  .button-class {
+    display: flex;
+  }
+  
+  .button-class button {
+    margin: 5px 5px;
+  }
+  
+  .gallery-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .gallery-section ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    gap: 20px;
+  }
+  
+  .gallery-section li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gallery-section img {
+    max-width: 200px;
+    max-height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .gallery-section p {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .divider {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  .delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .image-item:hover .delete-btn {
+    display: flex;
+  }
+  
